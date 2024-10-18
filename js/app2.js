@@ -1,10 +1,4 @@
-// Escribe un programa que reciba una calificación numérica entre 0 y 100 y luego imprima su equivalente
-// en letras, de acuerdo con la siguiente tabla:
-// i. 90-100: A
-// ii. 80-89: B
-// iii. 70-79: C
-// iv. 60-69: D
-// v. 0-59: F
+alert('-----Ejercicio 2-----');
 
 const numero = parseFloat(prompt('Ingresar un Número del 1 al 100'));
 if(numero>100 || numero<0){
